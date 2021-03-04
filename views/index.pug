@@ -20,19 +20,31 @@ html(lang="en")
           li.active
             a(href="#") Home
           li
-            a(href="#") About
+            a(href="#") Main Portal
           li
-            a(href="#") Blog
+            a(href="#") Infra Portal
           li
-            a(href="#") Press
-        h3.text-muted A New Startup
+            a(href="#") Version
+        h3.text-muted RMF
       .jumbotron
-        h1 Welcome to #{title}...
+        h1 [Demo] #{title}
         p.lead
-          | We're pretty thrilled to show you the cool things you can do with #{title}!
+          | This demo will go through following steps:
         p
-          a.btn.btn-lg.btn-success(data-toggle="modal" href="#") Sign up today
+        p.lead 
+          | Step1. Submit code change to Github.
+        p 
+        p.lead 
+          | Step2. Codepipeline is triggered.
+        p 
+        p.lead 
+          | Step3. Source -> Build -> Deploy lifecycle is executed.
+        p
+        p.lead 
+          | Step4. Validate change.
+        p          
+          a.btn.btn-lg.btn-success(data-toggle="modal" href="#") Watch me!!!
       .footer
-        p © A New Startup 2016
+        p 
       script(src="/static/jquery/jquery-1.11.3.min.js")
       script(src="/static/bootstrap/js/bootstrap.min.js")

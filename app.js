@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-03-04 15:32:00
+ * @LastEditTime: 2021-03-04 16:13:55
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /aws-nodejs-eb-codebuild/app.js
+ */
 // Load the AWS SDK
 var AWS = require('aws-sdk')
 
@@ -15,7 +23,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'BackSpace Academy & Elastic Beanstalk'
+    title: 'AWS CI/CD Integration'
     })
     res.status(200).end();
 })
